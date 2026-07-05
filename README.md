@@ -3,53 +3,6 @@
 A full-stack AI-powered mock interview platform for students.
 Built with React + Vite + TailwindCSS + Node.js + Express + MongoDB + Firebase + Gemini AI.
 
----
-
-## ⚠️ IMPORTANT — Before You Start
-
-### 1. Firebase Web Config (Required for client)
-Open `client/.env` and replace the placeholder values with your **Firebase Web App** config.
-
-Go to: [Firebase Console → Project Settings → Your Apps → Web App](https://console.firebase.google.com/project/hirepilotai-75ec0/settings/general)
-
-Copy the config object and fill in:
-```
-VITE_FIREBASE_API_KEY=AIza...
-VITE_FIREBASE_MESSAGING_SENDER_ID=1234...
-VITE_FIREBASE_APP_ID=1:1234...
-```
-
-### 2. Enable Firebase Auth Providers
-Go to Firebase Console → Authentication → Sign-in method:
-- ✅ Enable **Email/Password**
-- ✅ Enable **Google**
-
-### 3. Add localhost to Authorized Domains
-Firebase Console → Authentication → Settings → Authorized domains:
-- Add `localhost`
-
----
-
-## 🚀 Installation & Running
-
-### Server (Backend)
-```bash
-cd server
-npm install
-npm run dev
-# Runs on http://localhost:5000
-```
-
-### Client (Frontend)
-```bash
-cd client
-npm install
-npm run dev
-# Runs on http://localhost:5173
-```
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -70,7 +23,7 @@ version 1/
     ├── models/                 # User + Interview Mongoose models
     ├── routes/                 # API routes
     ├── services/               # Gemini AI service
-    └── .env                    # ✅ Already filled in
+    └── .env                    # Already filled in
 ```
 
 ---
