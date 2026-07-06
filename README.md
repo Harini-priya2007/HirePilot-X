@@ -2,6 +2,7 @@
 
 A full-stack AI-powered mock interview platform for students.
 Built with React + Vite + TailwindCSS + Node.js + Express + MongoDB + Firebase + Gemini AI.
+ Live Demo : https://hirepilot-x.vercel.app
 
 ## 📁 Project Structure
 
